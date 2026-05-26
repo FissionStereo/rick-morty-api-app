@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #101820;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #1f2937;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.buscador {
+  margin-top: 25px;
+}
+
+.buscador input {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.buscador button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: #1f2937;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h2 {
+  padding: 15px 10px 5px;
+  font-size: 20px;
+}
+
+.card p {
+  padding-bottom: 10px;
+  color: #d1d5db;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.loading {
+  font-size: 24px;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.error {
+  font-size: 22px;
+  color: red;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.contenido-card {
+  padding: 15px;
+}
