@@ -1,3 +1,4 @@
+
 # Rick & Morty API App
 
 Aplicación web desarrollada con HTML, CSS y JavaScript conectada a una API REST real.
@@ -31,7 +32,7 @@ https://fissionstereo.github.io/rick-morty-api-app/
 
 ## Captura del proyecto
 
-<img width="100%" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg">
+<img width="1917" height="942" alt="Captura de pantalla 2026-05-26 120044" src="https://github.com/user-attachments/assets/4a1b9768-187f-4e45-b27e-e739c998f4be" />
 
 ## Autor
 
